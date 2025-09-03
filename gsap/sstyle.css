@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pg1{
+    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+}
+.pg2{
+    background-color: rgb(187, 187, 232);
+    height: 100vh;
+    width: 100vw;
+    font-weight: 400;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem; */
+    }
+.pg3{
+    background-color: rgb(17, 17, 46);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    /* background-color: greenyellow; */
+    /* padding: 10px; */
+    font-family: Gilroy;
+    font-size: 32vw;
+}
+h2{
+    background-color: rgb(135, 152, 109);
+    padding: 10px;
+    font-family: Gilroy;
+}
+body{
+    overflow-x: hidden;
+}

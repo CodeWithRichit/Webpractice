@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Raligo";
+    src: url("./d11f3d03-9847-4c75-8586-b6f67a3c37f8.otf") format("opentype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Raligo", sans-serif;
+    font-size: 30px;
+}
+h1 span{
+    display: inline-block;
+}
+h1{
+    /* background-color: red; */
+    overflow: hidden;
+
+}

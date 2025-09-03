@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Name"><br>
+            <label for="sectionida">
+                <input type="radio" value="Section a" name="section" id="sectionida">SectionA
+            </label><br><!--jinn radiobuttons ko ek saath operate krna chahte ho, unka name same hona chahiye..as we have done in this case -->
+            <label for="sectionidb"><!--for and id should be same -->
+                <input type="radio" value="Section b" name="section" id="sectionidb">SectionB
+            </label><br>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Why do you wanna join"></textarea><br>
+            <select name="Transport" id="Transport">Select the type of transport
+                <option value="Bus">Bus</option>
+                <option value="Van">Van</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>

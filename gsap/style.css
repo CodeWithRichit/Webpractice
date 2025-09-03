@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+body{
+    background-color: #111;
+}
+.box{
+    height: 15rem;
+    width: 15rem;
+    background-color: aqua;
+}
+ .box1{
+     height: 15rem;
+    width: 15rem;
+    background-color: chocolate;
+} 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    /* background-color: red; */
+}
+.navi ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    padding-right: 1rem;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 14rem;
+    font-size: 4rem;
+}
